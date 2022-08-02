@@ -3,14 +3,14 @@
   "name": "Focus Mode",
   "version": "1.2",
   "description": "A mode to keep you focused at work!",
-  "icons": { "128": "images/icon128-2.png" },
+  "icons": { "128": "dist/images/icon128-2.png" },
   "browser_action": {
-    "default_icon": "images/icon128-1.png",
-    "default_popup": "html/popup.html",
+    "default_icon": "dist/images/icon128-1.png",
+    "default_popup": "dist/popup.html",
     "default_title": "Work Mode"
   },
   "background": {
-    "scripts": ["js/background.js"],
+    "scripts": ["dist/js/background.js"],
     "persistent": false
   },
   "permissions": ["webNavigation", "tabs", "storage"]
