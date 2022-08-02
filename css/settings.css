@@ -17,31 +17,31 @@ You should have received a copy of the GNU General Public License
 along with Focus Mode.  If not, see <http://www.gnu.org/licenses/>.
 *******************************************************************************/
 
-html{
+html {
   width: 100%;
   height: 100%;
   margin: 0 0;
 }
 
-body{
+body {
   margin: 0 0;
   padding: 0;
   width: 100%;
   height: 100%;
   background-color: #f9f9f9;
   font-family: Segoe UI;
-  color: #131313
+  color: #131313;
 }
 
-div{
+div {
   margin: 0 0 10px 0;
 }
 
-a{
+a {
   color: #008080;
 }
 
-p{
+p {
   text-align: justify;
 }
 
@@ -52,7 +52,7 @@ p{
   user-select: none;
 }
 
-.banner{
+.banner {
   position: absolute;
   top: 0;
   right: 0;
@@ -61,38 +61,38 @@ p{
   background-color: #008080;
 }
 
-.page{
+.page {
   position: absolute;
   top: 20px;
   width: 100%;
 }
 
-.article{
+.article {
   background-color: #ffffff;
   box-shadow: 1px 1px 8px #151515;
 }
 
-@media screen and (min-width: 745px){
-  .article{
+@media screen and (min-width: 745px) {
+  .article {
     width: 600px;
     padding: 64px;
     margin: 10px auto;
   }
 }
 
-@media screen and (max-width: 745px){
-  .article{
+@media screen and (max-width: 745px) {
+  .article {
     width: -webkit-calc(100% - 20px);
     height: 100%;
     margin: 0 0;
     padding: 10px;
   }
 
-  .banner{
+  .banner {
     display: none;
   }
 
-  .page{
+  .page {
     position: relative;
     top: 0;
     width: 100%;
@@ -101,33 +101,33 @@ p{
   }
 }
 
-.title{
+.title {
   margin: 0 0 20px 0;
   padding: 0;
   font-size: 35px;
   text-align: center;
 }
 
-.subtitle{
+.subtitle {
   margin: 0 0 10px 0;
   font-style: italic;
   font-size: 14px;
 }
 
-.title1{
+.title1 {
   margin: 20px 0 5px 0;
   font-size: 20px;
   color: #008080;
 }
 
-.subtitle1{
+.subtitle1 {
   margin: 5px 0 10px 0;
   font-size: 12px;
   font-style: italic;
   color: #6e6e6e;
 }
 
-.title2{
+.title2 {
   margin: 10px 0 5px 0;
   font-size: 14px;
   color: #008080;
@@ -135,19 +135,19 @@ p{
 
 /* Checkbox style from Sam example @ http://codepen.io/Sambego/pen/zDLxe */
 .list {
-  margin: .5rem;
-  list-style-type:none;
+  margin: 0.5rem;
+  list-style-type: none;
   padding-left: 0;
 }
 
 .list__item {
-  margin: 0 0 .5rem 0;
+  margin: 0 0 0.5rem 0;
   padding: 0;
 }
 
 .label--checkbox {
   position: relative;
-  margin: .5rem;
+  margin: 0.5rem;
   line-height: 135%;
   cursor: pointer;
 }
@@ -162,7 +162,7 @@ p{
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   z-index: 1;
@@ -176,13 +176,13 @@ p{
   -ms-transform: rotate(-45deg);
   -o-transform: rotate(-45deg);
   transform: rotate(-45deg);
-  height: .5rem;
+  height: 0.5rem;
   border-color: #008080;
   border-top-style: none;
   border-right-style: none;
 }
 .checkbox:after {
-  content: "";
+  content: '';
   position: absolute;
   top: -0.125rem;
   left: 0;
@@ -232,16 +232,17 @@ table {
   font-size: 12px;
 }
 
-th, td {
+th,
+td {
   text-align: left;
   padding: 8px;
 }
 
-tr:hover{
+tr:hover {
   background-color: #f2f2f2;
 }
 
-tr.head:hover{
+tr.head:hover {
   background-color: #ffffff;
 }
 
@@ -250,15 +251,15 @@ th {
   border-bottom: 1px solid #ddd;
 }
 
-.table-checkbox{
+.table-checkbox {
   width: 28px;
 }
 
-.table-cross{
+.table-cross {
   width: 20px;
 }
 
-td.table-cross{
+td.table-cross {
   cursor: pointer;
   vertical-align: text-top;
   text-align: center;
